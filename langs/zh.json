@@ -1,0 +1,14 @@
+{
+  "app_title": "计算",
+  "toggle_angle": "切换角度单位",
+  "toggle_scientific": "切换科学键盘",
+  "toggle_theme": "切换主题",
+  "toggle_history": "切换历史面板",
+  "history_title": "历史记录",
+  "clear_history": "清除历史记录",
+  "no_recent": "无最近计算",
+  "use_formula": "使用公式",
+  "copy": "复制",
+  "copied": "已复制到剪贴板！",
+  "error": "错误"
+}

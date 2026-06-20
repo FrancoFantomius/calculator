@@ -1,0 +1,14 @@
+{
+  "app_title": "Calcola",
+  "toggle_angle": "Cambia unità angoli",
+  "toggle_scientific": "Tastiera scientifica",
+  "toggle_theme": "Cambia tema",
+  "toggle_history": "Mostra cronologia",
+  "history_title": "Cronologia",
+  "clear_history": "Cancella cronologia",
+  "no_recent": "Nessun calcolo recente",
+  "use_formula": "Usa formula",
+  "copy": "Copia",
+  "copied": "Copiato negli appunti!",
+  "error": "Errore"
+}

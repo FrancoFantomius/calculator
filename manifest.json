@@ -1,9 +1,9 @@
 {
     "name": "Calcolatrice",
     "short_name": "Calcola",
-    "start_url": "https://francofantomius.github.io/calcolatrice-mobile/",
-    "background_color": "#1f1f1f",
-    "theme_color": "#292a2e",
+    "start_url": "index.html",
+    "background_color": "#0a0813",
+    "theme_color": "#0a0813",
     "display": "standalone",
     "icons":[
         {

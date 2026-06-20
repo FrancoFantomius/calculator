@@ -1,27 +1,29 @@
-# PWA Calcolatrice
+# Calculator
 
-Una Progressive Web App (PWA) calcolatrice semplice ed intuitiva, progettata per funzionare sia online che offline direttamente dal browser. Offre un'interfaccia pulita basata sul font *Inter* e pulsanti reattivi sia per operazioni di base che per funzioni scientifiche semplici.
+A modern, elegant web calculator application featuring a glassmorphic design, PWA support, scientific functions, and calculation history.
 
-## Funzionalità
+---
 
-- **Operazioni di base**: Addizione, sottrazione, moltiplicazione e divisione.
-- **Funzioni avanzate**: Radice quadrata, pi greco ($\pi$), elevamento a potenza ($^$) e percentuali.
-- **Supporto Parentesi**: Gestione corretta dell'ordine delle operazioni tramite parentesi.
-- **PWA (Progressive Web App)**: Installabile su dispositivi mobili e desktop grazie al file `manifest.json` e al Service Worker (`sw.js`), funzionante anche in assenza di rete.
-- **Interfaccia Web Responsiva**: Layout adattivo progettato per simulare una tastiera fisica di calcolatrice su display di ogni dimensione.
+## Features
 
-## Installazione e Utilizzo Locali
+- **Modern & Premium Design**: Beautiful user interface with glassmorphism effects, glowing decorative orbs, smooth transitions, and responsive layouts.
+- **PWA (Progressive Web App) Support**: Fully installable on both mobile and desktop devices, with offline capabilities.
+- **Dual Keyboard Mode (Standard / Scientific)**: Easily toggle between the basic layout and scientific functions with a single tap.
+- **Calculation History**: View, scroll, and clear a record of your recent calculations.
+- **Trigonometry Units (DEG / RAD)**: Full support for trigonometric functions in both degrees and radians.
+- **Theme Support**: Light and dark theme mode toggle.
+- **Multi-Language Support**: Toggle between fully localized.
 
-Per avviare la calcolatrice localmente, puoi servire i file statici con un qualsiasi server locale. Ad esempio:
+---
 
-1. **Tramite Python**:
-   ```bash
-   python -m http.server 8000
-   ```
-   Apri poi il browser all'indirizzo `http://localhost:8000`.
+## Technology Stack
 
-2. **Tramite Node.js (npx)**:
-   ```bash
-   npx serve .
-   ```
-   Apri poi l'indirizzo mostrato nel terminale (solitamente `http://localhost:3000`).
+- **HTML5**
+- **CSS3 (Vanilla)**
+- **JavaScript (ES6+)**
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.

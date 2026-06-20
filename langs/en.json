@@ -1,0 +1,14 @@
+{
+  "app_title": "Calculate",
+  "toggle_angle": "Toggle angle unit",
+  "toggle_scientific": "Toggle scientific keyboard",
+  "toggle_theme": "Toggle theme",
+  "toggle_history": "Toggle history panel",
+  "history_title": "History",
+  "clear_history": "Clear history",
+  "no_recent": "No recent calculations",
+  "use_formula": "Use formula",
+  "copy": "Copy",
+  "copied": "Copied to clipboard!",
+  "error": "Error"
+}

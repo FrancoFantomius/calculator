@@ -1,0 +1,14 @@
+{
+  "app_title": "Rechnen",
+  "toggle_angle": "Winkeleinheit umschalten",
+  "toggle_scientific": "Wissenschaftliche Tastatur umschalten",
+  "toggle_theme": "Design umschalten",
+  "toggle_history": "Verlauf umschalten",
+  "history_title": "Verlauf",
+  "clear_history": "Verlauf löschen",
+  "no_recent": "Keine letzten Berechnungen",
+  "use_formula": "Formel verwenden",
+  "copy": "Kopieren",
+  "copied": "In die Zwischenablage kopiert!",
+  "error": "Fehler"
+}
