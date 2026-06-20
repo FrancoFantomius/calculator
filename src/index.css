@@ -1,0 +1,207 @@
+body{
+    background-color: #1f1f1f;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    min-height: 600px;
+    min-width: 325px;
+}
+
+.display-top{
+    position: absolute;
+    top: 0px;
+    bottom: 95%;
+    left: 0px;
+    right: 0px;
+    background: #292A2E;
+    white-space: nowrap;
+}
+
+.display{
+    background: #292A2E;
+    margin: 0px;
+    /*position: absolute;*/
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 90%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    white-space: nowrap;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.expression{
+    color: #E3E4E8;
+    font-size: 55px;
+    text-align: end;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.expression::-webkit-scrollbar{
+    display: none;
+}
+
+.result{
+    color: #9AA199;
+    font-size: 50px;
+    text-align: end;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+.button-up-up{
+    font-family: 'Inter', sans-serif;
+    color: #E3E4E8;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-up-more{
+    background: #292A2E;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    display: inline-block;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-ac{
+    background: #C2EDCF;
+    color: #0A2C13;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-ac:active{
+    border-radius: 25%;
+    transition: 225ms;
+}
+
+.button-calc{
+    background: #5AB1F0;
+    color: #00234E;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-calc:active{
+    border-radius: 25%;
+    transition: 200ms;
+}
+
+.button-numb{
+    background: #292A2E;
+    color: #e3e4e8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-numb:active{
+    border-radius: 25%;
+    transition: 200ms;
+    background: #545557;
+}
+
+.button-res{
+    background: #D2E2FC;
+    color: #00234E;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    outline: none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+}
+
+.button-res:active{
+    border-radius: 25%;
+    transition: 225ms;
+}
