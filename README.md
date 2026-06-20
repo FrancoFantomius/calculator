@@ -1,21 +1,27 @@
-# Calcolatrice (Calculator Project)
+# PWA Calcolatrice
 
-A placeholder repository for a desktop or web-based calculator application.
+Una Progressive Web App (PWA) calcolatrice semplice ed intuitiva, progettata per funzionare sia online che offline direttamente dal browser. Offre un'interfaccia pulita basata sul font *Inter* e pulsanti reattivi sia per operazioni di base che per funzioni scientifiche semplici.
 
-## Description
+## Funzionalità
 
-This project, named `calcolatrice` (Calculator in Italian), is a template/skeleton repository initialized for hosting calculator software. It provides the initial repository structures, configuration files, and tracking configurations for future development.
+- **Operazioni di base**: Addizione, sottrazione, moltiplicazione e divisione.
+- **Funzioni avanzate**: Radice quadrata, pi greco ($\pi$), elevamento a potenza ($^$) e percentuali.
+- **Supporto Parentesi**: Gestione corretta dell'ordine delle operazioni tramite parentesi.
+- **PWA (Progressive Web App)**: Installabile su dispositivi mobili e desktop grazie al file `manifest.json` e al Service Worker (`sw.js`), funzionante anche in assenza di rete.
+- **Interfaccia Web Responsiva**: Layout adattivo progettato per simulare una tastiera fisica di calcolatrice su display di ogni dimensione.
 
-## Intended Features
+## Installazione e Utilizzo Locali
 
-- **Standard Operations**: Addition, subtraction, multiplication, and division.
-- **Scientific Mode**: Trigonometric and algebraic functions.
-- **Responsive Interface**: Design optimized for quick input (keyboard and click listeners).
+Per avviare la calcolatrice localmente, puoi servire i file statici con un qualsiasi server locale. Ad esempio:
 
-## Getting Started
+1. **Tramite Python**:
+   ```bash
+   python -m http.server 8000
+   ```
+   Apri poi il browser all'indirizzo `http://localhost:8000`.
 
-Currently, this repository is a clean slate. You can start building the calculator using HTML/JavaScript or Python (Tkinter).
-
-To set up:
-1. Clone the repository.
-2. Initialize your application code (e.g. `index.html` or `app.py`).
+2. **Tramite Node.js (npx)**:
+   ```bash
+   npx serve .
+   ```
+   Apri poi l'indirizzo mostrato nel terminale (solitamente `http://localhost:3000`).

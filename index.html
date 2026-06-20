@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calcolatrice</title>
+        <link rel="shortcut icon" href="./img/logo-512.png" type="image/x-icon">
+        <meta name="theme-color" content="#292a2e">
+        <link rel="apple-touch-icon" href="./img/logo-192.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" href="./src/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="display-top">
+            <p id="expression" class="expression">0</p>
+        </div>
+        <div class="display">
+            <br>
+            <br>
+            <br>
+            <p id="result" class="result">0</p>
+        </div>
+        <div id="sqrt" class="button-up-up">
+            <img src="./img/√.svg" alt="√">
+        </div>
+        <div id="pi" class="button-up-up">π</div>
+        <div id="elevate" class="button-up-up">^</div>
+        <div id="more" class="button-up-more"><img src="./img/more.svg" alt="⋁"></div>
+        <br>
+        <div id="ac" class="button-ac">
+            AC
+        </div>
+        <div id="brackets" class="button-calc">( )</div>
+        <div id="percentage" class="button-calc">%</div>
+        <div id="division" class="button-calc">÷</div>
+        <br>
+        <div id="seven" class="button-numb">7</div>
+        <div id="eight" class="button-numb">8</div>
+        <div id="nine" class="button-numb">9</div>
+        <div id="multiplication" class="button-calc">×</div>
+        <br>
+        <div id="four" class="button-numb">4</div>
+        <div id="five" class="button-numb">5</div>
+        <div id="six" class="button-numb">6</div>
+        <div id="subtraction" class="button-calc">-</div>
+        <br>
+        <div id="one" class="button-numb">1</div>
+        <div id="two" class="button-numb">2</div>
+        <div id="three" class="button-numb">3</div>
+        <div id="summ" class="button-calc">+</div>
+        <br>
+        <div id="zero" class="button-numb">0</div>
+        <div id="dot" class="button-numb">.</div>
+        <div id="backspace" class="button-numb">
+            <img src="./img/cancel.svg" alt="DEL">
+        </div>
+        <div id="calculate" class="button-res">=</div>
+        <script src="./src/index.js"></script>
+    </body>
+</html>
