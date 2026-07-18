@@ -8,7 +8,7 @@ export async function loadTranslations(lang) {
   try {
     const response = await fetch(`./langs/${lang}.json`);
     translations = await response.json();
-    applyTranslations();
+    applyTranslations(lang);
     localStorage.setItem("calc_lang", lang);
   } catch (e) {
     console.error("Failed to load translations", e);
@@ -16,7 +16,17 @@ export async function loadTranslations(lang) {
 }
 
 /** Apply loaded translations to UI elements */
-export function applyTranslations() {
+export function applyTranslations(lang) {
+  // Update document language attribute
+  if (lang) {
+    document.documentElement.lang = lang;
+  }
+
+  // Update browser tab/window title
+  if (translations.app_title) {
+    document.title = translations.app_title;
+  }
+
   // Title translation
   const appTitle = document.querySelector(".app-title");
   if (appTitle && translations.app_title) appTitle.textContent = translations.app_title;

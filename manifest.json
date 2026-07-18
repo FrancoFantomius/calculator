@@ -1,11 +1,37 @@
 {
+    "lang": "it",
     "name": "Calcolatrice",
-    "short_name": "Calcola",
+    "short_name": "Calcolatrice",
+    "name_localized": {
+        "en": "Calculator",
+        "es": "Calculadora",
+        "fr": "Calculatrice",
+        "de": "Taschenrechner",
+        "ru": "Калькулятор",
+        "zh": "计算器"
+    },
+    "short_name_localized": {
+        "en": "Calculator",
+        "es": "Calculadora",
+        "fr": "Calculatrice",
+        "de": "Rechner",
+        "ru": "Калькулятор",
+        "zh": "计算器"
+    },
+    "description": "Una calcolatrice semplice, moderna e funzionale",
+    "description_localized": {
+        "en": "A simple, modern, and functional calculator",
+        "es": "Una calculadora sencilla, moderna y funcional",
+        "fr": "Une calculatrice simple, moderne et fonctionnelle",
+        "de": "Ein einfacher, moderner und funktionaler Taschenrechner",
+        "ru": "Простой, современный и функциональный калькулятор",
+        "zh": "一个简单、现代且功能齐全的计算器"
+    },
     "start_url": "index.html",
     "background_color": "#0a0813",
     "theme_color": "#0a0813",
     "display": "standalone",
-    "icons":[
+    "icons": [
         {
             "src": "./img/logo-192.png",
             "sizes": "192x192",
